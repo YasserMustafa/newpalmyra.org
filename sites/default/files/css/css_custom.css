@@ -1,5 +1,2 @@
-.right-col-img {
-    height: auto; 
-    width: auto; 
-    max-width: 832; 
-}
+div.right-col-img { width: 832px; }
+img.right-col-img { max-width: 100%; }
