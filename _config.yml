@@ -1,1 +1,16 @@
 permalink: /:year/:month/:title/
+defaults:
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project"
+      category: "project"
+  -
+    scope:
+      path: "models"
+      type: "pages"
+    values:
+      layout: "model"
+      category: "model"
