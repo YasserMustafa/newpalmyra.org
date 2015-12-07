@@ -113,9 +113,16 @@
   </div>
 </header>
 
-</div>
-</section>
-<!-- /.block -->
+<div class="region region-jumbotron">
+  <section id="block-views-featured-project-slider-block" class="block block-views clearfix">
+
+    <div class="view view-featured-project-slider view-id-featured_project_slider view-display-id-block container banner-slider view-dom-id-1f02578270d32d7aed5cb505fb41011d">
+
+      <div class="view-content"></div>
+
+    </div>
+  </section>
+  <!-- /.block -->
 </div>
 
 </div>
@@ -128,87 +135,86 @@
 
 <div class="row">
 
-<aside class="col-sm-3" role="complementary">
-<div class="region region-sidebar-first">
-<section id="block-views-sponsors-list-block" class="block block-views clearfix">
+  <aside class="col-sm-3" role="complementary">
+    <div class="region region-sidebar-first">
+      <section id="block-views-sponsors-list-block" class="block block-views clearfix">
 
-  <div class="view view-sponsors-list view-id-sponsors_list view-display-id-block hidden-xs view-dom-id-0669f71ce6512f6ebe60d891ee3a8daa">
+        <div class="view view-sponsors-list view-id-sponsors_list view-display-id-block hidden-xs view-dom-id-0669f71ce6512f6ebe60d891ee3a8daa">
 
-    <div class="view-content">
-      {{page.leftcol | textilize}}
-      <div class="item-list"></div>
+          <div class="view-content">
+            {{page.leftcol | textilize}}
+            <div class="item-list"></div>
+          </div>
+
+        </div>
+      </section>
+      <!-- /.block -->
+      <section id="block-block-7" class="block block-block hidden-xs clearfix">
+
+        <p style="font-size: 14px;">
+          <a href="http://creativecommons.org/publicdomain/zero/1.0/">
+            <img alt="Creative Commons License" style="border-width:0; width: auto; height: auto;" src="https://licensebuttons.net/p/zero/1.0/80x15.png" />
+          </a>
+          <br />
+          This work is released under
+          <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+        </p>
+
+      </section>
+      <!-- /.block --> </div>
+  </aside>
+  <!-- /#sidebar-first -->
+
+  <section class="col-sm-9">
+    <a id="main-content"></a>
+    <h1 class="page-header">Projects</h1>
+    <div class="region region-content">
+      <section id="block-block-6" class="block block-block clearfix">
+
+        <div class="content-tag" dir="{{ page.direction }}">
+          <h1 style="margin-top: 0px;"> <strong>{{ page.title }}</strong>
+          </h1>
+        </div>
+
+      </section>
+      <!-- /.block -->
+      <section id="block-block-11" class="block block-block clearfix">
+        <section id="block-block-8" class="" dir="{{ page.direction }}">{{page.rightcol | textilize}}</section>
+
+        <p style="font-size: 35px;">
+          <a href="https://twitter.com/newpalmyraorg">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="https://instagram.com/newpalmyraorg/">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/pages/New-Palmyra/200184583646306">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+          <a href="https://github.com/newpalmyra">
+            <i class="fa fa-github-square"></i>
+          </a>
+        </p>
+        <p style="font-size: 14px;">
+          <a href="http://creativecommons.org/publicdomain/zero/1.0/">
+            <img alt="Creative Commons License" style="border-width:0; width: auto; height: auto;" src="https://licensebuttons.net/p/zero/1.0/80x15.png" />
+          </a>
+          This work is released under
+          <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
+        </p>
+
+      </section>
+      <!-- /.block -->
+      <div id="node-677" class="node node-page clearfix" about="/home" typeof="foaf:Document">
+
+        <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span>
+        <span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+
+        <div class="content"></div>
+
+      </div>
     </div>
-
-  </div>
-</section>
-<!-- /.block -->
-<section id="block-block-7" class="block block-block hidden-xs clearfix">
-
-  <p style="font-size: 14px;">
-    <a href="http://creativecommons.org/publicdomain/zero/1.0/">
-      <img alt="Creative Commons License" style="border-width:0; width: auto; height: auto;" src="https://licensebuttons.net/p/zero/1.0/80x15.png" />
-    </a>
-    <br />
-    This work is released under
-    <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
-  </p>
-
-</section>
-<!-- /.block -->
-</div>
-</aside>
-<!-- /#sidebar-first -->
-
-<section class="col-sm-9">
-<a id="main-content"></a>
-<h1 class="page-header">Projects</h1>
-<div class="region region-content">
-<section id="block-block-6" class="block block-block clearfix">
-
-  <div class="content-tag" dir="{{ page.direction }}">
-    <h1 style="margin-top: 0px;"> <strong>{{ page.title }}</strong>
-    </h1>
-  </div>
-
-</section>
-<!-- /.block -->
-<section id="block-block-11" class="block block-block clearfix">
-  <section id="block-block-8" class="" dir="{{ page.direction }}">{{ content }}</section>
-
-  <p style="font-size: 35px;">
-    <a href="https://twitter.com/newpalmyraorg">
-      <i class="fa fa-twitter-square"></i>
-    </a>
-    <a href="https://instagram.com/newpalmyraorg/">
-      <i class="fa fa-instagram"></i>
-    </a>
-    <a href="https://www.facebook.com/pages/New-Palmyra/200184583646306">
-      <i class="fa fa-facebook-square"></i>
-    </a>
-    <a href="https://github.com/newpalmyra">
-      <i class="fa fa-github-square"></i>
-    </a>
-  </p>
-  <p style="font-size: 14px;">
-    <a href="http://creativecommons.org/publicdomain/zero/1.0/">
-      <img alt="Creative Commons License" style="border-width:0; width: auto; height: auto;" src="https://licensebuttons.net/p/zero/1.0/80x15.png" />
-    </a>
-    This work is released under
-    <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>
-  </p>
-
-</section>
-<!-- /.block -->
-<div id="node-677" class="node node-page clearfix" about="/home" typeof="foaf:Document">
-
-  <span property="dc:title" content="Home" class="rdf-meta element-hidden"></span>
-  <span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
-
-  <div class="content"></div>
-
-</div>
-</div>
-</section>
+  </section>
 
 </div>
 </div>
