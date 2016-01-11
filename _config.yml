@@ -14,9 +14,3 @@ defaults:
     values:
       layout: "model"
       category: "model"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: /:year/:month/:title/
