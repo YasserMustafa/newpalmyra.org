@@ -179,13 +179,14 @@ p.heading, .heading { margin-bottom: 15px; }
 .jumbotron { padding: 0px; }
 .region-jumbotron { background-color: rgba(51, 51, 51, 0.9); }
 .region-content .block { margin-bottom: 30px; }
-.front .jumbotron { background-image: url(/sites/all/themes/newpalmyra/images/freebassel-palmyra-bel-6.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; padding: 0px; }
+.navigation { font-size: 21px; line-height: 2.14286; }
+.front .jumbotron, .navigation { background-image: url(/sites/all/themes/newpalmyra/images/freebassel-palmyra-bel-6.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; padding: 0px; }
 .banner-slider .flexslider { margin: 0px; border: 0px none; }
 .banner-slider .flex-control-nav { display: none; }
-.jumbotron .social-links { font-size: 25px; text-align: right; padding: 0px 15px; line-height: 1em; margin-top: 10px; }
-.jumbotron .social-links a { color: #333333; opacity: 0.65 }
-.jumbotron .social-links a:hover { color: #333333; opacity: 1; }
-.jumbotron .tag { position: relative; float: left; clear: left; line-height: 1em; text-align: center; font-weight: bold; font-size: 16px; margin: 8px 0 15px; }
+.navbar .social-links { font-size: 25px; text-align: right; padding: 0px 15px; line-height: 1em; margin-top: 10px; }
+.navbar .social-links a { color: #333333; opacity: 0.65 }
+.navbar .social-links a:hover { color: #333333; opacity: 1; }
+.navbar .tag { position: relative; float: left; clear: left; line-height: 1em; text-align: center; font-weight: bold; font-size: 16px; margin: 8px 0 15px; }
 .front .page-header { display: none; }
 .region-sidebar-first ul { padding: 0px; list-style: none; }
 .region-sidebar-first img, .view-sponsors-list img { width: 100%; height: auto; }
@@ -210,7 +211,7 @@ footer { display: none; }
 	.mailing-list { display: block; overflow: auto; clear: both; width; 100%; padding: 0 15px 15px; }
 	.mailing-list form { display: block; width: 100%; margin: 0px; }
 	.mailing-list .title { display: none; }
-	.jumbotron .social-links { display: none; }
+	.navbar .social-links { display: none; }
 	.contact-us-block { text-align: center; }
 }
 @media (min-width:768px) {
@@ -218,7 +219,7 @@ footer { display: none; }
 	.navbar-form { text-align: right; }
 	.region-sidebar-first { padding-right: 15px; }
 	.mailing-list .title { text-align: right; }
-	.jumbotron .social-links { padding: 0px; }
+	.navbar .social-links { padding: 0px; }
 	.jumbotron .tag { padding-left: 0px; text-align: left; }
 	#navbar > .container { padding: 0 15px; }
 	.region-content { padding-left: 15px; }
