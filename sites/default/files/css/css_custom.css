@@ -1,5 +1,5 @@
 div.right-col-img { 
-	width: 832px; 
+	max-width: 832px;
 	margin-bottom:20px;
 }
 
