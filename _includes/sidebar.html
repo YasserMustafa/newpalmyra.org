@@ -2,6 +2,8 @@
   <div class="region region-sidebar-first">
     {% if page.description != null %}
       {{ page.description }}
+    {% elsif page.sidebar != null %}
+      {% include {{ page.sidebar }} %}
     {% else %}
       {% include affiliate-list.html %}
     {% endif %}
