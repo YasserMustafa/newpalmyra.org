@@ -13,6 +13,23 @@ Website for [newpalmyra.org](http://www.newpalmyra.org/).
     bundle install
     bundle exec jekyll serve
 
+### Adding news articles
+
+To add a news article, create a file in the `_posts` directory, and name the file using this pattern:
+
+    _posts/YYYY-MM-DD-domain.html
+
+At the top of the file, add the frontmatter, following this template:
+
+    ---
+    layout: default
+    title: "ARTICLE TITLE"
+    source: "WEBSITE NAME"
+    link: URL
+    language: en
+    categories: [ press ]
+    ---
+
 ## Translation
 
 ### For Normal People

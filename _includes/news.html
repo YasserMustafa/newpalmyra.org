@@ -9,184 +9,22 @@
             <div class="item-list">
               <ul>
 
-				<li class="views-row views-row-1 views-row-odd views-row-first">
+                {% for post in site.categories.press %}
+
+                <li class="views-row views-row-8 views-row-{% cycle 'odd', 'even' %}">
                   <div class="views-field views-field-title">
                     <span class="field-content">
-                      <a href="http://www.france24.com/fr/20151218-bassel-khartabil-disparition-prison-syrie-pionnier-internet-libre-syrie-assad">Syrie: qu’est devenu le prisonnier Bassel Khartabil, pionnier syrien de l’Internet libre?</a>
-                      - 
-                      <em>France24 [fr]</em> 
-                      <em>Dec 18, 2015</em>
+                      <a href="{{ post.link }}">
+                        {{ post.title }}
+                      </a>
+                      -
+                      <em>{{ post.source }} [{{ post.language }}]</em>
+                      <em>{{ post.date | date: "%d&nbsp;%b&nbsp;%Y" }}</em>
                     </span>
                   </div>
                 </li>
 
-				<li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://www.theguardian.com/technology/2015/dec/11/bassel-khartabil-fears-for-man-who-brought-open-internet-to-the-arab-world">Bassel Khartabil: fears for man who brought open internet to the Arab world</a>
-                      - 
-                      <em>The Guardian</em> 
-                      <em>Dec 11, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-                <li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://futuremag.asf-prod.arte.tv/fr/newpalmyra-la-technologie-face-la-barbarie-futuremag-0">#NEWPALMYRA, la technologie face à la barbarie</a>
-                      - 
-                      <em>ARTE futuremag [fr]</em> 
-                      <em>Dec 4, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-                <li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title" >
-                    <span class="field-content">
-                      <a href="https://ar.globalvoices.org/2015/12/03/40385/" dir="rtl" lang="ar">
-                        باسل خرطبيل، السجين السوري الذي يكاد يفقد حياته من أجل الإنترنت 
-                      </a>
-                       -
-                      <em>Global Voices [ar]</em>
-                      <em>Dec 3, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-                <li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://www.csmonitor.com/World/Middle-East/2015/1124/Tech-world-takes-on-icon-smashing-Islamic-State-with-a-virtual-Palmyra">
-                        Tech world takes on icon-smashing Islamic State with a virtual Palmyra
-                      </a>
-                      -
-                      <em>Christian Science Monitor</em>
-                      <em>Nov 24, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-                <li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://politiken.dk/kultur/arkitektur/ECE2928172/internetaktivister-genrejser-palmyra-uden-islamisk-stats-oedelaeggelser/">
-                        Internetaktivister genrejser Palmyra uden Islamisk Stats &oslash;del&aelig;ggelser
-                      </a>
-                      -
-                      <em>Politiken [dk]</em>
-                      <em>Nov 13, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-				<li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://www.bostonmagazine.com/arts-entertainment/blog/2015/11/10/mit-media-lab-new-palmyra-project/">MIT Media Lab Is Helping to Digitally Reconstruct Syrian City Ravaged by Tech-world-takes-on-icon-smashing-Islamic-State-with-a-virtual-Palmyra</a>
-                      -
-                      <em>Boston Magazine</em>
-                      <em>Nov 11, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-                <li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://thecreatorsproject.vice.com/blog/help-fight-isis-by-rebuilding-palmyra-in-3d">Help Fight ISIS by Rebuilding Palmyra in 3D</a>
-                      -
-                      <em>The Creators Project</em>
-                      <em>Nov 10, 2015</em>
-                    </span>
-                  </div>
-                </li>
-
-                <li class="views-row views-row-1 views-row-odd views-row-first">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://m.voanews.com/a/bassel-khartabil-palmyra-creative-commons-syria-islamic-state/3033453.html">
-                        Disappeared Syrian Activist&#039;s 3-D Models Could Save Palmyra
-                      </a>
-                      -
-                      <em>The Voice of America</em>
-                      <em>Nov 3, 2015</em>
-                    </span>
-                  </div>
-                </li>
-                
-                <li class="views-row views-row-2 views-row-even">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://www.news.com.au/world/middle-east/archaeologists-armed-with-cheap-3d-cameras-hope-to-rebuild-ancient-sites-razed-by-islamic-state/story-fnh81ifq-1227585618935">
-                        Archaeologists armed with ‘cheap’ 3D cameras hope to rebuild ancient sites razed by Islamic State
-                      </a>
-                      <em>Oct 28, 2015</em>
-                    </span>
-                  </div>
-                </li>
-                
-                <li class="views-row views-row-4 views-row-even">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://3dprintingindustry.com/2015/10/23/free-3d-printable-of-the-week-newpalmyra/">Free 3D Printable of the Week: #NEWPALMYRA</a>
-                      -
-                      <em>3D Printing Industry</em>
-                      <em>Oct 24, 2015</em>
-                    </span>
-                  </div>
-                </li>
-                
-                <li class="views-row views-row-5 views-row-odd">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://www.architectmagazine.com/technology/an-open-source-project-to-rebuild-palmyra_o">An Open-Source Project to Rebuild Palmyra</a>
-                      -
-                      <em>Architect Magazine</em>
-                      <em>Oct 23, 2015</em>
-                    </span>
-                  </div>
-                </li>
-                
-                <li class="views-row views-row-6 views-row-even">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://joi.ito.com/weblog/2015/10/22/mit-media-lab-r.html">
-                        MIT Media Lab reaches out to jailed Syrian activist with research position in Center for Civic Media
-                      </a>
-                      -
-                      <em>Joi.Ito.com</em>
-                      <em>Oct 22, 2015</em>
-                    </span>
-                  </div>
-                </li>
-                
-                <li class="views-row views-row-7 views-row-odd">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://www.wired.com/2015/10/jailed-activist-bassel-khartabil-3d-models-could-save-syrian-history-from-isis/#slide-4">
-                        A Jailed Activist’s 3-D Models Could Save Syria’s History From ISIS
-                      </a>
-                      -
-                      <em>WIRED</em>
-                      <em>Oct 21, 2015</em>
-                    </span>
-                  </div>
-                </li>
-                
-                <li class="views-row views-row-8 views-row-even views-row-last">
-                  <div class="views-field views-field-title">
-                    <span class="field-content">
-                      <a href="http://m.slate.fr/story/107927/bassel-khartabil-prisonnier-syrien-internet">
-                        Bassel Khartabil, prisonnier syrien qui vit et risque de mourir pour Internet
-                      </a>
-                      -
-                      <em>slate.fr [fr]</em>
-                      <em>Oct 8, 2015</em>
-                    </span>
-                  </div>
-                </li>
+                {% endfor %}
 
               </ul>
 
