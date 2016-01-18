@@ -8,20 +8,20 @@ direction: ltr
 Присоединяйтесь к нам в воплощении #NEWPALMYRA в реальность! Мы ищем разных участников: 3D моделистов, археологов, художников, кураторов, разработчиков, педагогов, журналистов, исследователей, Викимедийцев и т.д. Как вы можете посодействовать прямо сейчас:
 
 * Посещайте события #NEWPALMYRA
-* Общайтесь с нами в реальном времени, #NEWPALMYRA на freenode IRC
-* Участвуйте с вопросами, кодом, данными в наших проектах GitHub
-* Пишите нам на <a href="mailto:info@newpalmyra.org">info@newpalmyra.org</a>
-* Следите за нами на Facebook, Instagram, Twitter  и распространять информацию
-* Подписывайтесь на нашу электронную рассылку
+* Общайтесь с нами в реальном времени, #NEWPALMYRA на freenode [IRC](http://webchat.freenode.net/?channels=#newpalmyra)
+* Участвуйте с вопросами, кодом, данными в наших проектах [GitHub](https://github.com/newpalmyra)
+* Пишите нам на [info@newpalmyra.org](mailto:info@newpalmyra.org)
+* Следите за нами на [Facebook](https://www.facebook.com/pages/New-Palmyra/200184583646306), [Instagram](https://www.facebook.com/pages/New-Palmyra/200184583646306), [Twitter](https://twitter.com/newpalmyraorg) и распространять информацию
+* [Подписывайтесь](https://tinyletter.com/NewPalmyra) на нашу электронную рассылку
 * Делитесь информацией и медиа о Пальмире в Википедии и т.д.; мы свободно используем эти материалы и будем способствовать больше в дальнейшем.
 
-Скачать последние 3D-модели Храма Бела
+[Скачать последние 3D-модели Храма Бела](http://gandi0.fabricatorz.com:1337/temple-of-bel.zip)
 
-Способствовать на GitHub
+[Способствовать на GitHub](https://github.com/newpalmyra/temple-of-bel)
 
 СКАЧАЙТЕ НАШ ПРЕСС-КИТ
 
-КНИГА «СТОИМОСТЬ СВОБОДЫ» ДОСТУПНА ДЛЯ СВОБОДНОГО СКАЧИВАНИЯ НА COSTOFFREEDOM.CC
+КНИГА «СТОИМОСТЬ СВОБОДЫ» ДОСТУПНА ДЛЯ СВОБОДНОГО СКАЧИВАНИЯ НА [COSTOFFREEDOM.CC](http://costoffreedom.cc)
 
 ПРЕДСТОЯЩИЕ СОБЫТИЯ
 
