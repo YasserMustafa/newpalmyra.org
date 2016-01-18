@@ -1,7 +1,6 @@
 ---
 layout: homepage
 direction: ltr
-slideshow: true
 ---
 
 ### Help us preserve the endangered cultural heritage of Syria by creating a virtual #NEWPALMYRA digital tools to build the future from the past
