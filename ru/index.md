@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: homepage
 direction: ltr
-slideshow: true
 ---
 
 ### ОБМЕН ДАННЫМИ, КОДОМ И ИСКУССТВОМ ДЛЯ ПРОШЛОГО, НАСТОЯЩЕГО И БУДУЩЕГО ПАЛЬМИРЫ
