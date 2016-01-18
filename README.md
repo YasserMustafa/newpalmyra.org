@@ -26,8 +26,9 @@ Website for [newpalmyra.org](http://www.newpalmyra.org/).
 1. Clone the repository.
 2. Create a new directory with the name of your language ISO code.
 3. Copy `index.md` into your new language folder, and translate the document.
-4. Commit your changes to a new branch.
-5. When ready, send a pull request for your changes to this master repository.
+4. Add a new link under the language switcher in `_includes/navbar.html`.
+5. Commit your changes to a new branch.
+6. When ready, send a pull request for your changes to this master repository.
 
 ## Questions
 
