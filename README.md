@@ -30,6 +30,8 @@ At the top of the file, add the frontmatter, following this template:
     categories: [ press ]
     ---
 
+To add a new video, see `_posts/2015-11-26-cyark.html` for an example.
+
 ## Translation
 
 ### For Normal People

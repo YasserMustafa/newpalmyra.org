@@ -229,3 +229,6 @@ footer { display: none; }
 	.region-sidebar-first .social-links { font-size: 35px; }
 }
 @media (min-width:1200px) { }
+.view-latest-video iframe {
+  max-width: 100%;
+}

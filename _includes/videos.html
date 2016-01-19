@@ -1,0 +1,18 @@
+<section ="block-views-latest-videos-block" class="block block-views clearfix">
+
+        <div class="view view-latest-video view-id-latest_video view-display-id-block">
+          <div class="view-header">
+            <h2>Videos</h2>
+          </div>
+
+          <div class="view-content">
+
+                {% for post in site.categories.video %}
+                  {{ post.content }}
+                  <p><a href="{{ post.link }}">{{ post.title }}</a>.</p>
+                {% endfor %}
+
+          </div>
+
+        </div>
+      </section>
