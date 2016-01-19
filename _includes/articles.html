@@ -1,0 +1,33 @@
+<section id="block-views-articles-block" class="block block-views clearfix">
+
+        <div class="view view-articles view-display-id-block list-unstyled view-dom-id-2e985da8785447039ee1e3792d9526d9">
+          <div class="view-header">
+            <h2>Articles</h2>
+          </div>
+
+          <div class="view-content">
+            <div class="item-list">
+              <ul>
+
+                {% for post in site.categories.article %}
+
+                <li class="views-row views-row-8 views-row-{% cycle 'odd', 'even' %}">
+                  <div class="views-field views-field-title">
+                    <span class="field-content">
+                      <em>{{ post.date | date: "%d&nbsp;%b&nbsp;%Y" }}</em>
+                      <a href="{{ post.url }}">
+                        {{ post.title }}
+                      </a>
+                    </span>
+                  </div>
+                </li>
+
+                {% endfor %}
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
