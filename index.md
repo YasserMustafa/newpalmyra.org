@@ -2,7 +2,6 @@
 layout: homepage
 direction: ltr
 ---
-### [JOIN THE #NEWPALMYRA #3DPRINTSPRINT]( http://newpalmyra.org/printsprint ) ###
 
 ### Help us preserve the endangered cultural heritage of Syria by creating a virtual #NEWPALMYRA digital tools to build the future from the past
 
