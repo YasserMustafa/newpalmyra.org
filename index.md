@@ -4,13 +4,13 @@ direction: ltr
 slideshow: true
 ---
 
-### Help us preserve the endangered cultural heritage of Syria by creating a virtual #NEWPALMYRA digital tools to build the future from the past
+### Help us use digital tools to build a future #NEWPALMYRA from the past
 
 **#NEWPALMYRA** is:
 
-* A **Digital Archaeology** project, collecting data from international partners, analyzing it, creating a reconstruction of Palmyra in virtual space, and sharing the models and data in the public domain. We are using digital tools to preserve the heritage sites being actively deleted by ISIS.
-* A **Cultural Development** project, hosting live workshops and building a network of artists, technologists, archaeologists, architects, and others to research, construct models, and create artistic works.
-* A **Curatorial** project, creating exhibitions and experiences in museums and institutions globally, celebrating the cultural heritage of Syria and the world through the lens of architecture embodying culture and power.
+* A **Digital Archaeology** project, collecting data from international partners, analyzing it, creating a reconstruction of Palmyra in virtual space, and sharing the models and data in the public domain. We are using digital tools to preserve heritage sites.
+* A **Cultural Development** project, hosting live workshops and building a network of artists, technologists, archaeologists, architects, and others to research, construct models, and create artistic works. We create exhibitions and experiences in museums and institutions globally, celebrating the cultural heritage of Syria and the world through the lens of architecture embodying culture and power.
+* A **Open Data** project, helping to advance open data policies in museums and institutions through advocacy, education, and consultation.
 
 Together with our international affiliates, **#NEWPALMYRA** sources archaeological and historical data, shares it with the community, and outputs art exhibitions, salons, and creative works using this data to carry the rich history of Palmyra forward to new generations.
 
