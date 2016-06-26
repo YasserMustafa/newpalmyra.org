@@ -15,18 +15,11 @@
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a href="/models/arch-of-triumph">Arch of Triumph</a>
-                  </li>
-                  <li>
-                    <a href="/models/theater">Roman Theater</a>
-                  </li>
-                  <li>
-                    <a href="/models/temple-of-baal-shamin">Temple of Baal Shamin</a>
-                  </li>
-                  <li>
-                    <a href="/models/temple-of-bel">Temple of Bel</a>
-                  </li>
+                  {% for model in site.models %}
+                    {% if model.title != "" %}
+                      <li><a href="{{ model.url }}">{{ model.title }}</a></li> 
+                    {% endif %}
+                  {% endfor %}
                 </ul>
               </li>
 
@@ -36,34 +29,28 @@
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a href="/projects/al-aous-publishers">Al-Aous Publishers</a>
-                  </li>
-                  <li>
-                    <a href="/projects/asad-al-lat">Asad Al-Lat</a>
-                  </li>
-                  <li>
-                    <a href="/projects/palmyra-sy">Palmyra.sy</a>
-                  </li>
-                  <li>
-                    <a href="/projects/palmyra-3d-model">Palmyra 3D Model</a>
-                  </li>
-                  <li>
-                    <a href="/projects/craft-grid">#NEWPALMYRA Craft-Grid</a>
-                  </li>
+                  {% for project in site.projects %}
+                    {% if project.title != "" %}
+                      <li><a href="{{ project.url }}">{{ project.title }}</a></li> 
+                    {% endif %}
+                  {% endfor %}
                 </ul>
               </li>
 
-<!--
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                   Events
                   <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
+                  {% for event in site.events %}
+                    {% if event.title != "" %}
+                      <li><a href="{{ event.url }}">{{ event.title }}</a></li> 
+                    {% endif %}
+                  {% endfor %}
                 </ul>
               </li>
--->
+
               <li><a href="/people">People</a></li>
 
               <li><a href="/press">Press</a></li>

@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Irregular Journeys"
+direction: ltr
+description: |
+  <p><a href="https://irregularjourneys.wordpress.com">Irregular Journeys</a> is an exhibit to promote empathy for Syrian refugees and their families by tracing their journeys across borders and across cultures, from Syria to Canada.  It was organized by the students of Cultural Heritage Conservation and Management at Sir Sandford Fleming College in Peterborough to:</p>
+  <ul>
+    <li>1) explore the history of the conflict in Syria and the factors involved in the current crisis,</li>
+
+    <li>2) understand the difficult process of leaving one’s country under duress and coming to Canada as a refugee,</li>
+
+    <li>3) become aware of the subsequent, sometimes fraught, process of integration into Canadian society with respect to the individual perspectives and cultural heritage of new Canadians.</li>
+  </ul>
+  
+  <p>The purpose of this website is to allow the reader to navigate supplementary data and thus, complete the interpretive experience of Irregular Journeys.</p>
+images:
+  - image_path: /sites/default/files/images/events/irregular-journeys/irregular-journeys-03.jpg
+  - image_path: /sites/default/files/images/events/irregular-journeys/irregular-journeys-04.jpg
+  - image_path: /sites/default/files/images/events/irregular-journeys/irregular-journeys-00.jpg
+  - image_path: /sites/default/files/images/events/irregular-journeys/irregular-journeys-01.jpg
+  - image_path: /sites/default/files/images/events/irregular-journeys/irregular-journeys-02.jpg
+---
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}

@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Reclaim History"
+direction: ltr
+description: |
+  <p>Reclaim History, Museum of Art and Design, NYC. 04/28/16. Organized by <a href="http://rekrei.org">Project Rekrei.</a></p>
+images:
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-01.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-10.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-02.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-03.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-00.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-04.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-05.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-06.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-07.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-08.jpg
+  - image_path: /sites/default/files/images/events/reclaim-history/reclaim-history-09.jpg
+---
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}

@@ -1,0 +1,27 @@
+---
+layout: default
+title: "FOSSASIA Singapore"
+direction: ltr
+description: |
+  <p>#NEWPALMYRA ran a cultural heritage preservation workshop at the Singapore Science Center for FOSSASIA '16.</p>
+  <p>The world's first 2D print of the Palmyra Arch of Triumph was printed out in tiles and colored by conference and science center attendees to bring an element of personal creativity to preserving cultural heritage.</p>
+  <p>FOSSASIA is Asia's Premier Open Technology Event, March 18th - 20th 2016 in Singapore.</p>
+images:
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-06.jpg
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-03.jpg
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-02.jpg
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-00.jpg
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-01.jpg
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-04.jpg
+  - image_path: /sites/default/files/images/events/fossasia-singapore/fossasia-05.jpg
+---
+  <div style="margin-top:20px;margin-bottom:30px;">
+        <a href="/sites/default/files/2d-Arch.zip" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-download-alt"></span>
+          Download Printable 2D Arch of Triumph Coloring Wall
+        </a>
+    </div>
+
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}

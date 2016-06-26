@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Beyond Destruction"
+direction: ltr
+description: |
+  <p>Pop-Up Palmyra: Responses to the Destruction of the Past</p>
+  <p>CMES, in partnership with the Phoebe A. Hearst Museum of Anthropology, is organizing Pop-Up Palmyra: Responses to the Destruction of the Past.</p>
+  <p>The well‐publicized destruction of antiquities at the hands of the self-proclaimed Islamic State has highlighted the urgent, long‐standing need for a global discussion of cultural heritage protection in the Middle East. This symposium aims to move public discourse around cultural heritage beyond reactions to looting and destruction and to engage more deeply with responses from academic and governmental institutions. The program will also focus on emerging currents within the discipline of Middle Eastern archaeology that emphasize a well‐rounded approach to cultural heritage and ask invited scholars and practitioners, government officials, artists, and the public to engage both with archaeological remains and the living communities in which research is conducted.</p>
+images:
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-00.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-02.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-06.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-01.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-04.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-05.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-03.jpg
+  - image_path: /sites/default/files/images/events/beyond-destruction/beyond-destruction-07.jpg
+
+---
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}

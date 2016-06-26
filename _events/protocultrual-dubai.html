@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Protocultural Dubai"
+direction: ltr
+description: |
+  <p><a href="http://protocultural.org/">Protocultural</a> is a series of events to gather scientists, artists and geeks to develop new forms of artistic and technological expressions based on their digital practices.</p>
+
+  <p>Protocultural is a moving space to prototype a continuation of thousands of years of human history expressed in all existing art forms.</p>
+
+  <p>Protocultural considers computer coding as a continuation of human writing history. It takes advantage of all intellectual technologies to push forward the borders of emotions, literacy and understanding of life.</p>
+
+  <p>Protocultural is an attempt to span art, science, and technology with brains, bare hands and the help of some technology.</p>
+images:
+  - image_path: /sites/default/files/images/events/protocultural-dubai/protocultural-dubai-04.jpg
+  - image_path: /sites/default/files/images/events/protocultural-dubai/protocultural-dubai-02.jpg
+  - image_path: /sites/default/files/images/events/protocultural-dubai/protocultural-dubai-00.jpg
+  - image_path: /sites/default/files/images/events/protocultural-dubai/protocultural-dubai-05.jpg
+  - image_path: /sites/default/files/images/events/protocultural-dubai/protocultural-dubai-06.jpg
+  - image_path: /sites/default/files/images/events/protocultural-dubai/protocultural-dubai-10.jpg
+---
+
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}
