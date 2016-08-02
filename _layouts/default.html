@@ -82,8 +82,18 @@
         </div>
     </div>
     <footer class="footer container"></footer>
-    <script src="/sites/default/files/js/js_5idECjjAo-X5YdkT65CaIiodkWmZlZv-WjSkHlWhoYk.js"></script>
-    <script src="/sites/default/files/js/js_B2uv6dkjoYobfQVyuXdchgrpnnx4oM0TkP_bDVf8Qrg.js"></script>
+    <script type="text/javascript">
+    $(window).on('load', function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationSpeed: 400,
+        animationLoop: true,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
 
   </body>
 </html>
