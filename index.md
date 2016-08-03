@@ -4,7 +4,7 @@ direction: ltr
 slideshow: true
 ---
 
-### Help us use digital tools to build a future #NEWPALMYRA from the past
+### Help us build a future #NEWPALMYRA from the past
 
 **#NEWPALMYRA** is:
 
