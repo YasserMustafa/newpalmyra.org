@@ -16,16 +16,16 @@ iframe {
 	max-width:100%;
 }
 
-.js .slicknav_menu {
+.slicknav_menu {
     display:none;
 }
 
-@media screen and (max-width: 480px) {
-    .js #menu {
+@media only screen and (max-width: 40em) {
+    #menu {
         display:none;
     }
 
-    .js .slicknav_menu {
+    .slicknav_menu {
         display:block;
     }
 }
