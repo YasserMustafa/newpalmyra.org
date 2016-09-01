@@ -21,7 +21,7 @@ Junto a nuestros afiliados internacionales, #NEWPALMYRA reúne información arqu
 Buscamos colaboradores de todo tipo, diseñadores 3D, arqueólogos, artistas, curadores, programadores, educadores, periodistas, investigadores, wikimedianos. Cómo puedes ayudar:
 
 Ven a las actividades de #NEWPALMYRA
-Colabora con asuntos, código, información en nuestros proyectos de modelos [GitHub](https://github.com/newpalmyra).
-Escríbenos a [info@newpalmyra.org](mailto:info@newpalmyra.org).
-Síguenos y pasa la voz en nuestra cuenta de [Facebook](https://www.facebook.com/pages/New-Palmyra/200184583646306), [Instagram](https://www.facebook.com/pages/New-Palmyra/200184583646306), and [Twitter](https://twitter.com/newpalmyraorg).
-Subscríbete a(https://tinyletter.com/NewPalmyra) nuestro boletín por correo electrónico.
+Colabora con asuntos, código, información en nuestros proyectos de modelos [GitHub](https://github.com/newpalmyra)
+Escríbenos a [info@newpalmyra.org](mailto:info@newpalmyra.org)
+Síguenos y pasa la voz en nuestra cuenta de [Facebook](https://www.facebook.com/pages/New-Palmyra/200184583646306), [Instagram](https://www.facebook.com/pages/New-Palmyra/200184583646306), and [Twitter](https://twitter.com/newpalmyraorg)
+Subscríbete a(https://tinyletter.com/NewPalmyra) nuestro boletín por correo electrónico
