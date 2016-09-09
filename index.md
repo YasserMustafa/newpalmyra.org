@@ -14,7 +14,7 @@ slideshow: true
 
 Together with our international affiliates, **#NEWPALMYRA** sources archaeological and historical data, shares it with the community, and outputs art exhibitions, salons, and creative works using this data to carry the rich history of Palmyra forward to new generations.
 
-### Contribute
+## Contribute
 
 We're looking for contributors of all sorts: 3D modelers, archaeologists, artists, curators, developers, educators, journalists, researchers, wikimedians. How you can help now:
 
