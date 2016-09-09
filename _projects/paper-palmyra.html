@@ -1,0 +1,37 @@
+---
+layout: default
+title: "Paper Palmyra"
+direction: ltr
+description: |
+  <p>By <a href="http://studio-sakyo.jp/papergarden/index_en.html">Paper Garden</a>.</p>
+  <p>(c) 2015 Sakyo K.</p>
+  <p>Architecture from the Ruins of Palmyra folded into paper Pop-Up books. PDFs available for download.</p>
+images:
+  - image_path: /sites/default/files/images/projects/paper-palmyra/a07.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/a06.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/a05.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/a04.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/a03.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/a02.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/bel07.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/bel06.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/bel05.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/bel04.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/bel03.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/bel02.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/p07.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/p06.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/p05.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/p04.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/p03.jpg
+  - image_path: /sites/default/files/images/projects/paper-palmyra/p02.jpg
+
+---
+	<h2><img src="/sites/default/files/images/adobe-pdf-icon.svg" width="100px" /><a href="/sites/default/files/pdf/monumental-arch-palmyra.pdf">Download Arch Pop-Up PDF</a></h2><br />
+	<h2><img src="/sites/default/files/images/adobe-pdf-icon.svg" width="100px" /><a href="/sites/default/files/pdf/temple-bel.pdf">Download Temple of Bel Pop-Up PDF</a></h2><br />	
+		<h2><img src="/sites/default/files/images/adobe-pdf-icon.svg" width="100px" /><a href="/sites/default/files/pdf/tetrapylon.pdf">Download Tetrapylon Pop-Up PDF</a></h2><br />
+
+<br />
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}
