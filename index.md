@@ -14,12 +14,13 @@ slideshow: true
 
 Together with our international affiliates, **#NEWPALMYRA** sources archaeological and historical data, shares it with the community, and outputs art exhibitions, salons, and creative works using this data to carry the rich history of Palmyra forward to new generations.
 
-### We need your help!
+### Contribute
 
 We're looking for contributors of all sorts: 3D modelers, archaeologists, artists, curators, developers, educators, journalists, researchers, wikimedians. How you can help now:
 
-* Come to #NEWPALMYRA events
+* Join #NEWPALMYRA events
 * Contribute issues, code, data in our models [GitHub](https://github.com/newpalmyra) projects
+* Finish a [Community Challenge](https://github.com/newpalmyra/community).
 * Email us [info@newpalmyra.org](mailto:info@newpalmyra.org)
 * Follow us and spread the word on our [Facebook](https://www.facebook.com/pages/New-Palmyra/200184583646306), [Instagram](https://www.facebook.com/pages/New-Palmyra/200184583646306), and [Twitter](https://twitter.com/newpalmyraorg)
 * [Subscribe](https://tinyletter.com/NewPalmyra) to our email newsletter
