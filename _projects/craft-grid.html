@@ -6,13 +6,17 @@ description: |
   <p>by Giovanni De Gasperis and Alessio Cordisco, <a href="https://github.com/giodegas/PalmyraTemple" >#NEWPALMYRA Craft-Grid GitHub</a></p>
   <p><a href="http://www.univaq.it" >University of L'Aquila, Italy</a></p>
   <p>Temple of Bel, in Palmyra Siria, 3D models, OpenSimulator archive</p>
+images:
+- image_path: /sites/default/files/images/projects/craft-01.jpg
+- image_path: /sites/default/files/images/projects/craft-02.jpg
+- image_path: /sites/default/files/images/projects/craft-03.jpg
+- image_path: /sites/default/files/images/projects/craft-04.jpg
+- image_path: /sites/default/files/images/projects/craft-05.jpg
 ---
 
-  <img src="/sites/default/files/images/projects/craft-01.jpg" width="832" />
-  <img src="/sites/default/files/images/projects/craft-02.jpg" width="832" />
-  <img src="/sites/default/files/images/projects/craft-03.jpg" width="832" />
-  <img src="/sites/default/files/images/projects/craft-04.jpg" width="832" />
-  <img src="/sites/default/files/images/projects/craft-05.jpg" width="832" />
+  {% for image in page.images %}
+    <img style="margin-bottom: 15px;" src="{{ image.image_path }}" />
+  {% endfor %}
   
 	<p>Plain OpenSim OAR land file. To import into your opensim server console:</p>
 
