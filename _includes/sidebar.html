@@ -1,5 +1,11 @@
 <aside class="col-sm-3" role="complementary">
   <div class="region region-sidebar-first">
+    {% if page.donate == "NULL" %}
+      <div style="width:100%; margin-top:20px; margin-bottom:30px;">
+        <a href="/donate" style="font-size:2.0em;" class="btn btn-success btn-block btn-lg">DONATE</a>
+      </div> 
+    {% endif %}
+    
     {% if page.description != null %}
       {{ page.description }}
     {% elsif page.sidebar != null %}

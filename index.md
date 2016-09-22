@@ -2,6 +2,7 @@
 layout: homepage
 direction: ltr
 slideshow: true
+donate: true
 ---
 
 ### Help us build a future #NEWPALMYRA from the past

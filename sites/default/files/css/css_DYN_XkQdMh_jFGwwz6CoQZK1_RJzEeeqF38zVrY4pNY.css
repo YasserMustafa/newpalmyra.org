@@ -27,7 +27,7 @@ body #admin-menu .dropdown li { line-height: normal }
 @media screen and (min-width:1200px) {
 	.navbar.container { max-width: 1140px }
 }
-.navbar.container>.container { margin: 0; padding: 0; width: auto }
+.navbar.container.container { margin: 0; padding: 0; width: auto }
 #overlay-container, .overlay-modal-background, .overlay-element { z-index: 1500 }
 #toolbar { z-index: 1600 }
 .modal { z-index: 1620 }
@@ -35,7 +35,7 @@ body #admin-menu .dropdown li { line-height: normal }
 .modal-backdrop { z-index: 1610 }
 .footer { margin-top: 45px; padding-top: 35px; padding-bottom: 36px; border-top: 1px solid #E5E5E5 }
 .element-invisible { margin: 0; padding: 0; width: 1px }
-.navbar .logo { margin-right: -15px; padding-left: 15px; padding-right: 15px }
+.navbar .logo { margin-right: -15px; padding-left: 15px; padding-right: 15px; }
 @media screen and (min-width:768px) {
 	.navbar .logo { margin-right: 0; padding-left: 0 }
 }
@@ -170,11 +170,11 @@ p.heading, .heading { margin-bottom: 15px; }
 .navbar-form .btn { background-color: rgb(51, 51, 51); background-color: rgba(51, 51, 51, 0.65); color: #ffffff; }
 .navbar-form .btn:hover { background-color: rgba(51, 51, 51, 1); }
 .navbar-default { border: 0 none; background-color: transparent; }
-#navbar { padding: 0px; margin: 0px; background-color: rgba(176, 234, 243, 0.9); border-radius: 0px; }
+#navbar { padding-top: 10px; margin: 0px; background-color: rgba(176, 234, 243, 0.9); border-radius: 0px; }
 #navbar > .container { padding: 0px; }
 .mailing-list form { border: 0 none; }
 .mailing-list .title { margin-bottom: 0px; }
-.navbar .logo { margin: 0px; }
+.navbar .logo { margin-top: 2px; }
 .logo img { width: 100%; }
 .jumbotron { padding: 0px; }
 .region-jumbotron { background-color: rgba(51, 51, 51, 0.9); }

@@ -29,3 +29,9 @@ iframe {
         display:block;
     }
 }
+
+body {
+    font-size:2em;
+}
+
+.navbar .donate { width:15%; float: right; align:right; font-size: 2em; text-align: right; padding: 0px 0px; line-height: 1em; margin-top: 5px; }
