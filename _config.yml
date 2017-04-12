@@ -1,7 +1,10 @@
+title: '#NEWPALMYRA'
 permalink: pretty
 
 gems:
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   events:
